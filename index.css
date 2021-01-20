@@ -1,0 +1,41 @@
+ul {
+      background-color:rgb(13, 13, 255);
+      overflow: hidden;
+      list-style-type: none;
+      position: fixed;
+      top :0px ;
+      right: 0px;
+      left: 0px;
+      margin: 0px;
+      padding: 0px;
+} 
+
+li {
+      float: right;
+      border-right:1px solid #ffff;
+}
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-family:'Courier New', Courier, monospace;
+        
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+  color : #333;
+}
+
+p1 {
+  color : #ffff;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+  float: left;
+}
