@@ -1,6 +1,41 @@
+/*css Game Website*/
 body {
-  background-image: url("");
+  background-image: url("indexIMG/Abstract Cubes Wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-blend-mode: exclusion;
 }
+
+.MyDiv0{
+  color : #000;
+  left: 50px;
+  top: 40px;
+  text-align: right;
+  font-family: "Audiowide", sans-serif;
+  font-size: 50px;
+}
+
+.MyDiv0 p {
+  color:rgb(0, 60, 255);
+  font-size: 30px;
+  margin: 10px;
+}
+
+button {
+    background-color: #ffff;
+    color : #333;
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    font-size: 30px;
+    width : 200px;
+    height: 100px;
+    margin: 15px;     
+}
+
+button:hover:not(.active) {
+  background-color: rgb(0, 153, 255);
+  color : #ffff;
+}
+/*css Game Website*/
